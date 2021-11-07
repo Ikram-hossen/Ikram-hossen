@@ -1,0 +1,203 @@
+@media(min-width:768px) and (max-width:991px){
+    .banner-submit-btn {
+        padding: 7px;
+    }
+    .footer-widget ul.footer-link li a {
+        font-size: 1rem;
+    }
+    .client-flex-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clients-section .client-card {
+        min-height: 375px;
+    }
+    .client-img {
+        margin: 0 0 10px !important;
+    }
+}
+@media(max-width:991px){
+    /* Header */
+    .lang-select {
+        margin-top: 0px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #responsive-navbar-nav {
+        margin: 0 0 15px;
+        background: #eee;
+        padding: 0;
+        border-radius: 5px;
+    }
+    .navbar-toggler {
+        outline: 0 !important;
+        box-shadow: none !important;
+        background: #ff7a59 !important;
+        position: relative;
+        padding: 1px 4px !important;
+    }
+    .navbar-toggler-icon::after {
+        font-family: "Fontawesome";
+        content: "\f0c9";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 22px;
+    }
+    .header-main .nav-link {
+        font-size: .9rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 10px 15px !important;
+        display: block;
+    }
+    .active.nav-link {
+        border-radius: 5px;
+    }
+    #responsive-navbar-nav .dropdown-menu {
+        position: relative;
+        width: auto !important;
+        padding: 10px;
+        margin: 0 15px;
+        background: #fff;
+        border: 1px solid #fff;
+    }
+}
+@media(max-width:767px){
+    .footer-widget img {
+        width: 120px;
+    }
+    .header-logo{
+        width: 120px;
+    }
+    .banner-right-content {
+        width: 100%;
+        margin-right: 0;
+    }
+    .slick-prev::before, .slick-next::before {
+        font-size: 20px !important;
+    }
+    /* Banner */
+    .banner-title {
+        font-size: 36px;
+    }
+    .banner-submit-btn {
+        padding: 0 5px;
+        height: 45px;
+        font-size: .9rem;
+    }
+    .banner-search-inp {
+        height: 45px;
+    }
+    .section-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    /* Service */
+    .service-section {
+        border-top-right-radius: 100px;
+    }
+    .slick-prev {
+        left: -10px !important;
+    }
+    .slick-next {
+        right: -10px !important;
+    }
+    /* Delivery */
+    .counter-item{
+        margin-bottom: 20px;
+    }
+    #delivery .row.counter-row {
+        margin-bottom: .8rem;
+    }
+    /* About */
+    #about .about-text {
+        padding: 2.5rem 0;
+    }
+    #about .about-wrap {
+        background-position: 100%;
+    }
+    #about .about-text p {
+        text-align: justify;
+    }
+    /* Footer */
+    .footer-widget{
+        padding-top: 1.8rem;
+    }
+    .row.footer-top-row2 .right-inner img {
+        width: 120px;
+    }
+    .footer-widget h3 {
+        font-size: 1.2rem;
+        padding-bottom: .5rem;
+       
+    }
+    .h3-first-child{
+        padding-top: 0rem !important;
+    }
+    .footer-widget ul.footer-link li {
+        margin: 0.1rem 0;
+    }
+    .footer-widget ul.footer-link li a {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .footer-widget .hide {
+        display: none;
+    }
+    .footer-top-row2 .left-inner {
+        margin-top: 0rem !important;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .left-inner li {
+        margin-bottom: 10px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    /* About us page starts */
+    #about-us .about-baner h4 {
+	font-size: 1.6rem;
+    }
+    #about-us .about-content h6 {
+	font-size: 1rem;
+	margin-bottom: 1.3rem;
+    }
+    #about-us .about-content {
+	padding: 3rem 0;
+    }
+    #about-us .about-content p {
+	font-size: 0.9rem;
+    }
+    /* About us page ends */
+    .client-flex-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clients-section .client-card {
+        min-height: 265px;
+    }
+    .client-img {
+        margin: 0 0 10px !important;
+    }
+}
+@media(max-width:600px){
+
+}
+@media(max-width:414px){
+    .banner-inp-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .banner-right-content {
+        margin-top: 20px;
+    }
+}
