@@ -7,7 +7,7 @@ export default function Banner() {
     return (
         <div>
             <div className="banner-section">
-                <div className="container">
+                <div className="container" style={{position: 'relative' ,zIndex: '2'}}>
                     <div className="row">
                         <div className="col-md-6 mx-auto">
                             <div className="pt-3 pt-lg-5 text-center">

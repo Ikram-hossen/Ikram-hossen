@@ -10,30 +10,30 @@ export default function Experience() {
                             <h2 className="section-title mb-3 mb-md-5">My Experience</h2>
                         </div>
                         <div className="col-md-6">
-                            <div className="timeline-edu">
+                            <div className="timeline-edu educaton">
+                                <div className="timeline-container">
+                                    <div className="content">
+                                        <span className="time">2005 - 2015</span>
+                        
+                                        <h3 className="title">SSC</h3>
+                        
+                                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    </div>
+                                </div>
+                                <div className="timeline-container">
+                                    <div className="content">
+                                        <span className="time">2015 - 2019</span>
+                        
+                                        <h3 className="title">Diploma in Computer Science</h3>
+                        
+                                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    </div>
+                                </div>
                                 <div className="timeline-container">
                                     <div className="content">
                                         <span className="time">2019 - Present</span>
                         
-                                        <h3 className="title">Academic Degree</h3>
-                        
-                                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-                                    </div>
-                                </div>
-                                <div className="timeline-container">
-                                    <div className="content">
-                                        <span className="time">2017 - 2013</span>
-                        
-                                        <h3 className="title">Bachelor’s Degree</h3>
-                        
-                                        <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-                                    </div>
-                                </div>
-                                <div className="timeline-container">
-                                    <div className="content">
-                                        <span className="time">2013 - 2009</span>
-                        
-                                        <h3 className="title">Honours Degree</h3>
+                                        <h3 className="title">Bsc in CSE</h3>
                         
                                         <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                     </div>

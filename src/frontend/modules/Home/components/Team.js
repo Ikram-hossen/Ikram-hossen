@@ -3,9 +3,7 @@ import {Card} from 'react-bootstrap';
 import testImg1 from '../../../../dist/images/team1.jpg';
 import testImg2 from '../../../../dist/images/team2.jpg';
 import testImg3 from '../../../../dist/images/team3.jpg';
-import testImg4 from '../../../../dist/images/team4.jpg';
 import testImg5 from '../../../../dist/images/team5.jpg';
-import testImg6 from '../../../../dist/images/team6.jpg';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -96,24 +94,6 @@ export default function Team() {
                                 <Card className="text-center testimonial-card" style={{width:'93%', margin: '0 auto'}}>
                                     <Card.Body>
                                         <div className="testimonial-img-div"> 
-                                            <img className="testimonial-img" src={testImg6} alt="Testimonial 1"/>
-                                            <div>
-                                                <h3 className="author-name">Hasanur Rahman</h3>
-                                                <p className="author-designation">Frontend Developer</p>
-                                            </div>
-                                            <ul className="team-social-icons">
-                                                <li><a target="_blank" href="#"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="#"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a target="_blank" href="#"><i className="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                            <div>
-                                <Card className="text-center testimonial-card" style={{width:'93%', margin: '0 auto'}}>
-                                    <Card.Body>
-                                        <div className="testimonial-img-div"> 
                                             <img className="testimonial-img" src={testImg3} alt="Testimonial 1"/>
                                             <div>
                                                 <h3 className="author-name">Muhammad Emon</h3>
@@ -122,23 +102,6 @@ export default function Team() {
                                             <ul className="team-social-icons">
                                                 <li><a target="_blank" href="https://www.facebook.com/emon.who/"><i className="fa fa-facebook-f"></i></a></li>
                                                 <li><a target="_blank" href="https://www.linkedin.com/in/md-emon-hosen-86b4a221b/"><i className="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                            <div>
-                                <Card className="text-center testimonial-card" style={{width:'93%', margin: '0 auto'}}>
-                                    <Card.Body>
-                                        <div className="testimonial-img-div"> 
-                                            <img className="testimonial-img" src={testImg4} alt="Testimonial 1"/>
-                                            <div>
-                                                <h3 className="author-name">MD Rubel Khan</h3>
-                                                <p className="author-designation">Software Developer</p>
-                                            </div>
-                                            <ul className="team-social-icons">
-                                                <li><a target="_blank" href="https://www.facebook.com/rubelkhan7991/"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="#"><i className="fa fa-github"></i></a></li>
                                             </ul>
                                         </div>
                                     </Card.Body>

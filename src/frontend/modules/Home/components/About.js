@@ -16,16 +16,15 @@ export default function About() {
                     <div className="col-md-12 text-center">
                         <h2 className="section-title mb-3 mb-md-5">About me</h2>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-5 col-md-5">
                         <div className="about-img"> 
                             <img src={aboutImg} alt="About image" title="About image" className="img-fluid"/>
                             <a className="about-video-btn" target="_blank" href="https://www.youtube.com/channel/UCuB0evRETixJxzSPZZFdleQ"><i className="fa fa-play"></i></a>
-                            <div className="video-border-line"></div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-7 ms-lg-auto">
                         <div className="widget-wrap">
-                            <div className="widget-container mt-md-5 pt-md-3">
+                            <div className="widget-container">
                                 <p>I am Ikram Hossen, web developer from Dhaka, Bangladesh. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
                             </div>
                             <div>
@@ -49,8 +48,8 @@ export default function About() {
                                     <ProgressBar className="design mt-1" now={design}/>
                                 </div>
 
-                                <div className="fact-wrapper row text-center mt-5">
-                                    <div className="col-sm-6 mb-3">
+                                <div className="fact-wrapper row text-center mt-4 mt-md-5">
+                                    <div className="col-6 mb-2 mb-md-3">
                                         <div className="fact-item">
                                             <span className="icon icon-like">
                                                 <img src={likeIcon} alt="Like"/>
@@ -61,7 +60,7 @@ export default function About() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 mb-3">
+                                    <div className="col-6 mb-2 mb-md-3">
                                         <div className="fact-item">
                                             <span className="icon icon-cup">
                                                     <img src={cupIcon} alt="Coffee"/>
@@ -72,7 +71,7 @@ export default function About() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 mb-3">
+                                    <div className="col-6 mb-2 mb-md-3">
                                         <div className="fact-item">
                                             <span className="icon icon-people">
                                                 <img src={menIcon} alt="Clients"/>
@@ -83,7 +82,7 @@ export default function About() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 mb-3">
+                                    <div className="col-6 mb-2 mb-md-3">
                                         <div className="fact-item">
                                             <span className="icon icon-badge">
                                                 <img src={medalIcon} alt="Medal"/>

@@ -1,3 +1,15 @@
+@media(min-width:1400px){
+    .banner-section {
+        min-height: 600px;
+    }
+}
+@media(max-width:991px){
+    .btn.header-hireme-btn {
+        margin-top: 0;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+}
 @media(min-width:768px) and (max-width:991px){
     .banner-submit-btn {
         padding: 7px;
@@ -69,129 +81,182 @@
     }
 }
 @media(max-width:767px){
-    .footer-widget img {
-        width: 120px;
-    }
-    .header-logo{
-        width: 120px;
-    }
-    .banner-right-content {
-        width: 100%;
-        margin-right: 0;
-    }
-    .slick-prev::before, .slick-next::before {
-        font-size: 20px !important;
-    }
     /* Banner */
-    .banner-title {
-        font-size: 36px;
-    }
-    .banner-submit-btn {
-        padding: 0 5px;
-        height: 45px;
-        font-size: .9rem;
-    }
-    .banner-search-inp {
-        height: 45px;
-    }
     .section-title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
-    /* Service */
-    .service-section {
-        border-top-right-radius: 100px;
+    .section-title::after {
+        top: -10px;
+        left: -20px;
+        width: 35px;
+        height: 35px;
     }
-    .slick-prev {
-        left: -10px !important;
+    .banner-title {
+        font-size: 30px;
     }
-    .slick-next {
-        right: -10px !important;
-    }
-    /* Delivery */
-    .counter-item{
-        margin-bottom: 20px;
-    }
-    #delivery .row.counter-row {
-        margin-bottom: .8rem;
-    }
-    /* About */
-    #about .about-text {
-        padding: 2.5rem 0;
-    }
-    #about .about-wrap {
-        background-position: 100%;
-    }
-    #about .about-text p {
-        text-align: justify;
-    }
-    /* Footer */
-    .footer-widget{
-        padding-top: 1.8rem;
-    }
-    .row.footer-top-row2 .right-inner img {
-        width: 120px;
-    }
-    .footer-widget h3 {
-        font-size: 1.2rem;
-        padding-bottom: .5rem;
-       
-    }
-    .h3-first-child{
-        padding-top: 0rem !important;
-    }
-    .footer-widget ul.footer-link li {
-        margin: 0.1rem 0;
-    }
-    .footer-widget ul.footer-link li a {
+    .banner-social-icons a {
         font-size: 1rem;
-        line-height: 30px;
     }
-    .footer-widget .hide {
+    .hireme-btn {
+        min-height: 40px;
+        line-height: 22px !important;
+        font-size: 1rem !important;
+    }
+    .about-img {
+        margin-bottom: 40px;
+    }
+    .about-img .about-video-btn {
+        right: 0;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        line-height: 60px;
+        left: 0;
+        margin: 0 auto;
+        bottom: -58px;
+    }
+    .about-img .about-video-btn::after {
+        width: 60px;
+        height: 60px;
+    }
+    /* Experience */
+    .timeline-edu .content h3 {
+        font-size: 1.2rem;
+    }
+    .timeline-edu.educaton {
+        margin-bottom: 15px;
+    }
+    /* Service */
+    .services-item {
+        margin-bottom: 15px;
+    }
+    .single-porfolio-item {
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+    .how-i-work-item .arrow-dashed-img {
         display: none;
     }
-    .footer-top-row2 .left-inner {
-        margin-top: 0rem !important;
-        align-items: flex-start;
-        flex-direction: column;
+
+    .hire_wrap_title {
+        font-size: 2rem;
     }
-    .left-inner li {
-        margin-bottom: 10px;
+    .hire_wrap::before {
+        bottom: -92px !important;
+        left: 0 !important;
+        width: 85px !important;
+        height: 100% !important;
     }
-    .footer-bottom {
-        flex-direction: column;
+    .clients-section .slick-list {
+        padding: 10px 0 !important;
     }
-    /* About us page starts */
-    #about-us .about-baner h4 {
-	font-size: 1.6rem;
-    }
-    #about-us .about-content h6 {
-	font-size: 1rem;
-	margin-bottom: 1.3rem;
-    }
-    #about-us .about-content {
-	padding: 3rem 0;
-    }
-    #about-us .about-content p {
-	font-size: 0.9rem;
-    }
-    /* About us page ends */
     .client-flex-div {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
-    }
-    .clients-section .client-card {
-        min-height: 265px;
+        justify-content: center;
     }
     .client-img {
-        margin: 0 0 10px !important;
+        width: 60px;
+        height: 60px;
+        margin: 0 auto !important;
+    }
+    .review-flex {
+        margin-top: 10px;
+    }
+    .client-name {
+        font-size: 1.4rem;
+    }
+    .contact-info-item {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .contact-info-item .icon {
+        height: 90px;
+        width: 90px;
+        margin: 0 auto;
+    }
+    .contact-info-item .icon span {
+        height: 65px;
+        width: 65px;
+        font-size: 25px;
+        line-height: 65px;
+    }
+    .contact-info-item{
+        text-align: center;
+    }
+    .contact-info-item .body h5 {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .contact-form-wrap .contact-form-group .form-control {
+        height: 45px;
+    }
+    .contact-form-wrap .contact-form-group {
+        margin-bottom: 10px;
+    }
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+    .footer-widget h3 {
+        margin-bottom: 1.5rem;
+    }
+    #footer {
+        background-image: none !important;
     }
 }
 @media(max-width:600px){
+    .banner-img {
+        width: 150px;
+    }
+    .widget-container {
+        text-align: center;
+    }
+    .how-i-work-item .img {
+        height: 230px;
+        width: 230px;
+        border: 5px solid #2e3e4b;
+    }
+    .how-i-work-item .number {
+        top: -22px !important;
+    }
+    .how-i-work-item .number span {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .how-i-work-item .text {
+        padding: 10px 30px;
+        border-radius: 50px;
+        margin-top: 22px;
+        margin-bottom: 40px;
+    }
+    .how-i-work-item .text h5 {
+        font-size: 1rem;
+    }
+    .author-name {
+        font-size: 1.4rem;
+    }
+    .author-designation {
+        font-size: 1rem;
+    }
+    .team-social-icons li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .testimonial-card.card {
+        min-height: auto !important;
+    }
 
 }
 @media(max-width:414px){
+    p{
+        font-size: .9rem;
+    }
     .banner-inp-wrapper {
         width: 90%;
         margin-left: auto;
@@ -199,5 +264,24 @@
     }
     .banner-right-content {
         margin-top: 20px;
+    }
+    .banner-section {
+        min-height: 500px;
+    }
+    .banner-img {
+        margin-top: 85px;
+    }
+    .fact-item .number {
+        font-size: 22px;
+    }
+    .fact-item img {
+        width: 35px;
+        margin-right: 10px;
+    }
+    .details p {
+        font-size: 13px;
+    }
+    .projectPrepare-title::after {
+        left: 0 !important;
     }
 }

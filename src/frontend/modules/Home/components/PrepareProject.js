@@ -1,5 +1,7 @@
 import React from 'react';
-import serviceImg from '../../../../dist/images/how-i-work-img-3.png';
+import thinkingImg from '../../../../dist/images/thinking.jpg';
+import researchImg from '../../../../dist/images/research.jpg';
+import designImg from '../../../../dist/images/design.jpg';
 import arrowImg from '../../../../dist/images/arrow-img.png';
 
 export default function PrepareProject() {
@@ -22,7 +24,7 @@ export default function PrepareProject() {
                                 </div>
                                 <div className="number-border"></div>
                                 <div className="img">
-                                    <img src={serviceImg} alt="Thinking" className="img-fluid" />
+                                    <img src={thinkingImg} alt="Thinking" className="img-fluid" />
                                 </div>
                                 <div className="text">
                                     <h5>Thinking</h5>
@@ -37,7 +39,7 @@ export default function PrepareProject() {
                                 </div>
                                 <div className="number-border"></div>
                                 <div className="img">
-                                    <img src={serviceImg} alt="Thinking" className="img-fluid" />
+                                    <img src={researchImg} alt="Research" className="img-fluid" />
                                 </div>
                                 <div className="text">
                                     <h5>Research</h5>
@@ -51,7 +53,7 @@ export default function PrepareProject() {
                                 </div>
                                 <div className="number-border"></div>
                                 <div className="img">
-                                    <img src={serviceImg} alt="Thinking" className="img-fluid" />
+                                    <img src={designImg} alt="Design" className="img-fluid" />
                                 </div>
                                 <div className="text">
                                     <h5>Design</h5>

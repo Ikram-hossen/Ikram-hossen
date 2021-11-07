@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import {Navbar, Nav} from 'react-bootstrap';
+import {Navbar, Nav, Button} from 'react-bootstrap';
 import Logo from '../../../dist/images/logo.png';
 import '../../../dist/css/style.css';
 import '../../../dist/css/responsive.css';
@@ -36,10 +36,14 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link to="/" className="nav-link">Contact</Link>
                                 </li>
+                                <li className="nav-item">
+                                    <a href="#" className="btn header-hireme-btn d-inline-block">Hire Me</a>
+                                </li>
                             </Nav>
                         </Navbar.Collapse>
                     </div>
                 </Navbar>
+               
             </div>
         </header>
      );
