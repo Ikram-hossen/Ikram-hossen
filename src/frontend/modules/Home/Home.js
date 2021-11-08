@@ -11,10 +11,13 @@ import Contact from './components/Contact';
 import Footer from '../Footer/Footer';
 import HireMe from './components/HireMe';
 import Portfolio from './components/Portfolio';
+import ScrollToTop from "react-scroll-to-top";
+import { ReactComponent as MySVG } from "./logo.svg";
 
 const Home = () => {
     return (
         <div>
+            <ScrollToTop smooth component={<MySVG />} />
             <Header />
             <Banner />
             <About />
