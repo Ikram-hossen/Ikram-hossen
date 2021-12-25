@@ -15,7 +15,7 @@ export default function Services() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="services-item">
-                                <img src={serviceImg} alt="Services image" className="services-bg-img" />
+                                <img src={serviceImg} alt="Services" className="services-bg-img" />
                                 <div className="body">
                                     <h4>01</h4>
                                     <h5>UI/UX Design</h5>
@@ -27,7 +27,7 @@ export default function Services() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="services-item">
-                                <img src={serviceImg} alt="Services image" className="services-bg-img" />
+                                <img src={serviceImg} alt="Services" className="services-bg-img" />
                                 <div className="body">
                                     <h4>02</h4>
                                     <h5>Web Design</h5>
@@ -39,7 +39,7 @@ export default function Services() {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="services-item">
-                                <img src={serviceImg} alt="Services image" className="services-bg-img" />
+                                <img src={serviceImg} alt="Services" className="services-bg-img" />
                                 <div className="body">
                                     <h4>03</h4>
                                     <h5>Web Development</h5>

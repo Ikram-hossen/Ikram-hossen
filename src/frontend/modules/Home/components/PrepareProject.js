@@ -18,7 +18,7 @@ export default function PrepareProject() {
                     <div className="row mt-3 mt-md-5">
                         <div className="col-md-4">
                             <div className="how-i-work-item">
-                                <img src={arrowImg} alt="Arrrow image" className="arrow-dashed-img"/>
+                                <img src={arrowImg} alt="Arrrow" className="arrow-dashed-img"/>
                                 <div className="number">
                                     <span>01</span>
                                 </div>
@@ -33,7 +33,7 @@ export default function PrepareProject() {
                         </div>
                         <div className="col-md-4">
                             <div className="how-i-work-item">
-                                <img src={arrowImg} alt="Arrrow image" className="arrow-dashed-img"/>
+                                <img src={arrowImg} alt="Arrrow" className="arrow-dashed-img"/>
                                 <div className="number">
                                     <span>02</span>
                                 </div>

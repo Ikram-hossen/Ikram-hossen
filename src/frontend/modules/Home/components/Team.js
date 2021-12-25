@@ -64,9 +64,9 @@ export default function Team() {
                                                 <p className="author-designation">Frontend Developer</p>
                                             </div>
                                             <ul className="team-social-icons">
-                                                <li><a target="_blank" href="https://www.facebook.com/ikramhossen1392/"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="https://twitter.com/ikramhossen13"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/ikram-hossen-550145173/"><i className="fab fa-linkedin"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ikramhossen1392/"><i className="fa fa-facebook-f"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ikramhossen13"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ikram-hossen-550145173/"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </Card.Body>
@@ -82,9 +82,9 @@ export default function Team() {
                                                 <p className="author-designation">Wordpress Developer</p>
                                             </div>
                                             <ul className="team-social-icons">
-                                                <li><a target="_blank" href="https://www.facebook.com/ovick2024/"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="https://twitter.com/iamovk"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/iamovk1997/"><i className="fab fa-linkedin"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ovick2024/"><i className="fa fa-facebook-f"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/iamovk"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/iamovk1997/"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </Card.Body>
@@ -100,8 +100,8 @@ export default function Team() {
                                                 <p className="author-designation">Android Developer</p>
                                             </div>
                                             <ul className="team-social-icons">
-                                                <li><a target="_blank" href="https://www.facebook.com/emon.who/"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/md-emon-hosen-86b4a221b/"><i className="fab fa-linkedin"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/emon.who/"><i className="fa fa-facebook-f"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/md-emon-hosen-86b4a221b/"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </Card.Body>
@@ -117,9 +117,9 @@ export default function Team() {
                                                 <p className="author-designation">Web Designer</p>
                                             </div>
                                             <ul className="team-social-icons">
-                                                <li><a target="_blank" href="https://www.facebook.com/hammadcse99"><i className="fa fa-facebook-f"></i></a></li>
-                                                <li><a target="_blank" href="https://twitter.com/HammadR45132504"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/hammad-rahman-7a21281a3/"><i className="fab fa-linkedin"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/hammadcse99"><i className="fa fa-facebook-f"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/HammadR45132504"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hammad-rahman-7a21281a3/"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </Card.Body>

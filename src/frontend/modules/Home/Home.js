@@ -1,6 +1,6 @@
 import {React, Component} from 'react';
 import { Link } from "react-router-dom";
-import {Navbar, Nav, Button} from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import Logo from '../../../dist/images/logo.png';
 import '../../../dist/css/style.css';
 import '../../../dist/css/responsive.css';
@@ -17,6 +17,7 @@ import HireMe from './components/HireMe';
 import Portfolio from './components/Portfolio';
 import ScrollToTop from "react-scroll-to-top";
 import { ReactComponent as MySVG } from "./logo.svg";
+import ColorSwitch from './components/ColorSwitch';
 
 class Home extends Component {
     constructor(props) {
@@ -30,7 +31,7 @@ class Home extends Component {
       }
     render(){
         return (
-            <div>
+            <main>
                 <header id="header" className="header-main">
                     <div className="navbarWrap">
                         <Navbar collapseOnSelect expand="lg" bg="white" variant="white" className="p-0">
@@ -61,8 +62,12 @@ class Home extends Component {
                                         <li className="nav-item">
                                             <Link  to="" className="btn header-hireme-btn d-inline-block" onClick={() => this.scrollToNode(this.contact)}>Hire Me</Link>
                                         </li>
+                                        <li className="nav-item">
+                                            <ColorSwitch className="mml-3"/>
+                                        </li>
                                     </Nav>
                                 </Navbar.Collapse>
+                               
                             </div>
                         </Navbar>
                     
@@ -92,7 +97,7 @@ class Home extends Component {
                     <Contact />
                 </div>
                 <Footer />
-            </div>
+            </main>
         );
     };     
 }

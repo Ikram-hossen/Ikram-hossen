@@ -18,11 +18,11 @@ const Footer = () => {
                                     distracted by the readable content..
                                 </p>
                                 <ul className="footer-social d-flex align-items-center">
-                                    <li><a target="_blank" href="https://www.facebook.com/ikramhossen1392/"><i className="fa fa-facebook-f"></i></a></li>
-                                    <li><a target="_blank" href="https://twitter.com/ikramhossen13"><i className="fa fa-twitter"></i></a></li>
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/ikram-hossen-550145173/"><i className="fab fa-linkedin"></i></a></li>
-                                    <li><a target="_blank" href="https://github.com/Ikram-hossen"><i className="fab fa-github"></i></a></li>
-                                    <li><a target="_blank" href="https://www.youtube.com/channel/UCuB0evRETixJxzSPZZFdleQ"><i className="fab fa-youtube"></i></a></li>
+                                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ikramhossen1392/"><i className="fa fa-facebook-f"></i></a></li>
+                                    <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ikramhossen13"><i className="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ikram-hossen-550145173/"><i className="fab fa-linkedin"></i></a></li>
+                                    <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Ikram-hossen"><i className="fab fa-github"></i></a></li>
+                                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCuB0evRETixJxzSPZZFdleQ"><i className="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>

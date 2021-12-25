@@ -9,6 +9,9 @@
         margin-left: 15px;
         margin-bottom: 15px; 
     }
+    #toggle {
+        margin-bottom: 15px !important;
+    }
 }
 @media(min-width:768px) and (max-width:991px){
     .banner-submit-btn {
@@ -81,6 +84,14 @@
     }
 }
 @media(max-width:767px){
+    .testimonial-section .slick-arrow.slick-prev {
+        top: -38px !important;
+        right: auto !important;
+    }
+    .testimonial-section .slick-arrow.slick-next {
+        top: -38px !important;
+        right: 20px !important;
+    }
     /* Banner */
     .section-title {
         font-size: 1.5rem;

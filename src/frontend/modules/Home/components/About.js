@@ -62,8 +62,8 @@ class About extends Component {
                         </div>
                         <div className="col-lg-5 col-md-5">
                             <div className="about-img"> 
-                                <img src={aboutImg} alt="About image" title="About image" className="img-fluid"/>
-                                <a className="about-video-btn" target="_blank" href="https://www.youtube.com/channel/UCuB0evRETixJxzSPZZFdleQ"><i className="fa fa-play"></i></a>
+                                <img src={aboutImg} alt="About" title="About image" className="img-fluid"/>
+                                <a className="about-video-btn" target="_blank" rel="noopener noreferrer"  href="https://www.youtube.com/channel/UCuB0evRETixJxzSPZZFdleQ"><i className="fa fa-play"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-7 ms-lg-auto">

@@ -7,7 +7,6 @@ import {
     } from "react-router-dom";
 import Home from "./modules/Home/Home";
 
-
 const BasePage = () => {
       return (
             <Router>

@@ -1,0 +1,41 @@
+
+{
+    "teamData":[
+        {
+            "id"    : 1,
+            "img":"",
+            "name":"Ikram Hossen",
+            "designation":"Frontend Developer",
+            "facebook": "https://www.facebook.com/ikramhossen1392/",
+            "twitter": "https://twitter.com/ikramhossen13",
+            "linkedin": "https://www.linkedin.com/in/ikram-hossen-550145173/"
+        },
+        {
+            "id"    : 2,
+            "img":"",
+            "name":"MD Shorov Abedin",
+            "designation":"Wordpress Developer",
+            "facebook": "https://www.facebook.com/ovick2024/",
+            "twitter": "https://twitter.com/iamovk",
+            "linkedin": "https://www.linkedin.com/in/iamovk1997/"
+        },
+        {
+            "id"    : 3,
+            "img":"",
+            "name":"Muhammad Emon",
+            "designation":"Android Developer",
+            "facebook": "https://www.facebook.com/emon.who/",
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/in/md-emon-hosen-86b4a221b/"
+        },
+        {
+            "id"    : 4,
+            "img":"",
+            "name":"Hammad Rahman",
+            "designation":"Frontend Developer",
+            "facebook": "https://www.facebook.com/hammadcse99",
+            "twitter": "https://twitter.com/HammadR45132504",
+            "linkedin": "https://www.linkedin.com/in/hammad-rahman-7a21281a3/"
+        }
+    ]
+}
