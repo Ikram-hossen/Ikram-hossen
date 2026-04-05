@@ -56,7 +56,6 @@
 
 ## 🤝 Connect With Me
 
-* 💼 Fiverr (Coming Soon)
 * 🌐 Portfolio https://portfolio-ikram13.vercel.app
 * 📧 Email: [ikram.codeware@gmail.com](mailto:ikram.codeware@gmail.com)
 
