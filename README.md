@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Ikram Hossen
 
-💻 Frontend Developer | 🚀 Future Software Entrepreneur | 🌍 Freelancer (Fiverr & Freelancer.com)
+💻 Frontend Developer | 🚀 Worked at Codeware Limited | 🌍 Freelancer (Fiverr & Freelancer.com)
 
 ---
 
@@ -46,14 +46,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![Ikram's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME\&layout=compact)
-
----
-
 ## 🔥 Current Focus
 
 * Mastering **Next.js (App Router + SSR/ISR)**
@@ -65,8 +57,8 @@
 ## 🤝 Connect With Me
 
 * 💼 Fiverr (Coming Soon)
-* 🌐 Portfolio (Add your link)
-* 📧 Email: [your@email.com](mailto:your@email.com)
+* 🌐 Portfolio https://portfolio-ikram13.vercel.app
+* 📧 Email: [ikram.codeware@gmail.com](mailto:ikram.codeware@gmail.com)
 
 ---
 
