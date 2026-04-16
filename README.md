@@ -20,7 +20,7 @@
 </p>
 
 <!-- Technologies and Tools -->
-<h1 align="center">🛠 Languages and Tools:</h1>
+<h1>🛠 Languages and Tools:</h1>
 <div class="markdown-heading" dir="auto">
     <h4 class="heading-element" dir="auto">💻 Languages &amp; Frameworks</h4>
     <a
