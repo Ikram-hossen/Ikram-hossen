@@ -10,7 +10,7 @@
 - 🌱 Learning **SEO, Shopify Development & Advanced React Patterns**
 - 💡 Love creating **modern, scalable & high-performance web apps**
 - 🎯 Mission: Build my own **software company**
-- ⚡ Focused on **discipline & consistency** (Ramadan mindset 💪)
+- ⚡ Focused on **discipline & consistency** (💪)
 
 ---
 
