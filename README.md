@@ -16,7 +16,7 @@
 
 <!-- Profile Views Badge -->
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=tanimtorikul&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Ikram-hossen&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 <!-- Technologies and Tools -->
